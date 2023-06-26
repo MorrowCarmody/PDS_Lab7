@@ -2,7 +2,12 @@
 # COSC 6375
 # Lab 7 Part 3
 
+import numpy as np
 
+arr = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(arr)
+transposed_arr = arr.transpose()
+print(transposed_arr)
 
 """
 INSTRUCTIONS:

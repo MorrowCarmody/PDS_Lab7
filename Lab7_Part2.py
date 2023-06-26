@@ -5,13 +5,9 @@
 import numpy as np
 
 arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-
 np_arr = np.array(arr)
-
 n = int(len(arr)/4)
-
 np_arr = np_arr.reshape(n,4)
-
 print(np_arr)
 
 """
